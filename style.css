@@ -1,0 +1,51 @@
+.body {
+    background-color: black;
+    
+}
+.section-index {
+    width: 60%;
+    margin: 15px 20%;
+}
+
+.logo img{
+    width: 40%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.articulo {
+    display: flex;
+    flex-direction: column;
+}
+.titulo {
+    width: 100%;
+    justify-content: center;
+}
+.titulo h2 {
+    color: aliceblue;
+    margin: 0 33%;
+
+}
+.articulo-parrafo {
+    margin: 10px 15%;
+}
+.articulo-parrafo p {
+    color: aliceblue;
+}
+.articulo-imagen img{
+    width: 60%;
+    margin: 30px 20%;
+
+}
+.section-plantel {
+    color: white;
+    background: linear-gradient(blue, rgb(2, 2, 146), rgb(2, 2, 49),rgb(2, 2, 31));
+    
+}
+.jugadores {
+    display: grid;
+    margin: 20px 15%;
+    padding: 10px;
+
+}
