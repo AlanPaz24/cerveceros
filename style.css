@@ -49,3 +49,39 @@
     padding: 10px;
 
 }
+.tabla {
+    background: linear-gradient(blue, rgb(2, 2, 146), rgb(2, 2, 49),rgb(2, 2, 31));
+    color: white;
+}
+.titulo-torneo {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 10%;
+}
+.tabla-posiciones {
+    width: 100%;
+    background-color: blueviolet;
+
+}
+.titulos-tabla {
+    color: white;
+    margin: 10px 15%;
+    padding: 15px 15%;
+}
+.titulo-fixture {
+    margin:10px 33%;
+    padding: 10px;
+}
+.fixture {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 400px 400px;
+    gap: 10px;
+
+}
+.fixture img {
+    width: 400px;
+    background-color: azure;
+    border-radius: 15px;
+}
